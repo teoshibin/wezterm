@@ -43,6 +43,9 @@ M.keys = {
     -- emoji selector
     { key = 'u', mods = 'LEADER', action = act.CharSelect{ copy_on_select = true, copy_to =  'ClipboardAndPrimarySelection' } },
 
+    { key = 'y', mods = 'CTRL', action = act.ScrollByLine(-1) },
+    { key = 'e', mods = 'CTRL', action = act.ScrollByLine(1) },
+
     {
         key = "t",
         mods = "LEADER",
