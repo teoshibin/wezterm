@@ -3,6 +3,7 @@ local config = wezterm.config_builder()
 
 config.automatically_reload_config = false
 config.max_fps = 120
+config.audible_bell = "Disabled"
 
 -- Text
 config.font = wezterm.font('JetBrainsMono Nerd Font Mono')
@@ -10,7 +11,7 @@ config.font_size = 11.5
 config.line_height = 0.9
 
 -- Theme
-config.colors = require("custom/kanagawa")
+config.color_scheme = "Catppuccin Mocha"
 config.window_background_opacity = 0.9
 
 -- Tab
