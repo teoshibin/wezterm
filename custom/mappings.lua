@@ -11,6 +11,9 @@ M.keys = {
 
     -- windows ctrl backspace delete word
     { key = 'Backspace', mods = 'CTRL', action = act.SendString("\x17") },
+    -- macos option and command backspace delete word and line
+    { key = 'Backspace', mods = 'SUPER', action = act.SendString("\x15") },
+    { key = 'Backspace', mods = 'ALT', action = act.SendString("\x17") },
 
     { key = 'c', mods = "LEADER", action = act.SpawnTab "CurrentPaneDomain", },
     { key = 'x', mods = "LEADER", action = act.CloseCurrentPane { confirm = true } },
