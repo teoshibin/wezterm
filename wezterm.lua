@@ -18,7 +18,7 @@ config.line_height = 0.9
 
 -- Theme
 config.color_scheme = "Catppuccin Mocha"
-config.window_background_opacity = 0.9
+config.window_background_opacity = 1.0
 
 -- Tab
 config.use_fancy_tab_bar = false
